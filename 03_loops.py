@@ -19,8 +19,23 @@ resultat_4 = [i if i%2==0 else -i for i in nombres_4]
 pprint (resultat_4)
 
 #-----------------------------------------------------#
-
 print("-----------------------")
 print("Exercice 2 : basic loop")
 for i in range(10):
   print(f"Utilisateur {i+1}")
+
+#-----------------------------------------------------#
+print("-----------------------")
+print("Exercice 3 : inverse string")
+# mot=input("Give me your word: ")
+mot = "Python"
+for letter in reversed(mot):
+  print(letter)
+
+#-----------------------------------------------------#
+print("-----------------------")
+print("Exercice 4 : while loop")
+continuer = "o"
+while continuer=="o":
+  print("On continue")
+  continuer=input("voulez-vous continuer (o/n) ?")
